@@ -66,115 +66,10 @@
         color: white;
       }
       
-      .largeSelect {
-        background-color: white;
-        padding: 30px 100px 30px 100px;
-        margin: 0px;
-      }
-      
-      .largeSelect ul {
-        margin: 0px 15% 0px 15%;
-        list-style-type: none;
-        overflow: hidden;
-        padding: 0px;
-      }
-      
-      .largeSelect ul li {
-        display: inline;
-        font-weight: bold; 
-        padding: 10px;
-      }
-      
-      .largeSelect ul li a {
-        text-align: center;
-        padding: 15px 0px;
-        border-bottom: 2px lightgray solid; 
-      }
-      
-      .largeSelect ul li a:hover {
-        text-decoration: underline;
-      }
-      
-      .contentBlockWide {
-        display: flex;
-        margin: -1em 0px;;
-        background-color: white;
-        font-weight: bold;
-        justify-content: center;
-      }
-      
-      .contentBlockWide figure {
-        text-align: center;
-        margin: 15px;
-      }
-      
-      .contentBlockWide figure img {
-        width: 280px;
-        height: 280px;
-      }
-      
-      .contentBlockWide figure figcaption {
-        padding: 20px;
-      }
-      
-      .contentBlockImg {
-        display: flex;
-        background-color: white;
-        padding: 0px 60px;
-      }
-      
-      .contentBlockImg .column1 {
-        width: 45%;
-        text-align: center;
-      }
-      
-      .contentBlockImg .column1 figure {
-        width: 100%;
-        margin: 50px auto;
-      }
-      
-      .contentBlockImg .column1 figure img {
-        width: 85%;
-      }
-      
-      .contentBlockImg .column2 {
-        width: 55%;
-        text-align: center;
-        margin: auto 0px;
-      }
-      
-      .contentBlockText {
-        display: flex;
-        background-color: white;
-        padding: 70px 60px;
-      }
-      
-      
-      .contentBlockText .column1 {
-        width: 50%;
-        text-align: center;
-        padding: 10px 0px;
-      }
-      
-      .contentBlockText .column2 {
-        width: 50%;
-        text-align: center;
-        padding: 20px 0px;
-      }
-      
-      .contentBlockText .column2 figure img {
-        clip-path: circle(100%);
-        border-radius: 50%;
-        border: 3px gray solid;
-      }
-      
-      .contentBlockText .column2 figure img:hover {
-        border: 3px gray dashed;
-      }
-      
       #navbar {
         position: fixed;
         width: 100%;
+        z-index: 1;
       }
       
       #navbar ul {
@@ -203,10 +98,11 @@
         width: 100%;
       }
       
-      #titleSplash h1 {
-        font-size: 8em;
+      #titleSplash {
         text-align: center;
       }
+      
+      
       
       #footer {
         width: 200px;
@@ -238,87 +134,17 @@
         <ul>
           
           <li><a href="#">Personal Works</a></li>
-          <li><a href="#">Academic Works</a></li>
+          <li><a href="#" style="font-weight:bold">Academic Works</a></li>
           <li><a href="https://hoiyahanya.github.io/A3-About-Me/">About Me</a></li>
-          <li ><a href="#" style="font-weight:bold">Home</a></li>
+          <li ><a href="https://hoiyahanya.github.io/A3-Main/">Home</a></li>
         </ul>
       </div>
       
       <div id="titleSplash">
-        <h1>Alexander <br> Hernandez Pineda</h1>
-      </div>
-      
-      <div class="largeSelect">
-        <ul>
-          <li><a href="https://hoiyahanya.github.io/A3-About-Me/">ABOUT ME</a></li>
-          <li><a href="#">ACADEMIC WORKS</a></li>
-          <li><a href="#">PERSONAL WORKS</a></li>
-        </ul>
-      </div>
-      
-      <div style="margin:-1.3em 0px;padding:20px;text-align:center;background-color:white">
-        <h4>RECENT  WORKS</h4>
-      </div>
-      
-      
-      <div class="contentBlockWide">
-        <figure>
-          <img src="image_2024-12-06_145132369.png" alt="Drawing of Kirby with Painti">
-          <figcaption>Painti - Painting Engine</figcaption>
-        </figure>
-        <figure>
-          <img src="image_2024-12-06_152548712.png" alt="Title Screen of Flick">
-          <figcaption>FLICK - A Simple 2 Player Game</figcaption>
-        </figure>
-        <figure>
-          <img src="image_2024-12-06_155755890.png" alt="Cover of the fictional language-based story entry 'Let's Visit!: University of Waterloo''">
-          <figcaption>Let's Visit!: University of Waterloo</figcaption>
-        </figure>
-        <figure>
-          <img src="image_2024-12-06_155911190.png" alt="Personal Logo with coral coloured birds">
-          <figcaption>Personal Logo/Emblem for a Student</figcaption>
-        </figure>
-      </div>
-      
-      <hr>
-      
-      <div class="contentBlockImg">
-        <div class="column1">
-          <figure>
-            <img src="image_2024-12-07_131910030.png" alt="Photo of Alexander Hernandez Pineda along with his signature">
-          </figure>
-        </div>
-        <div class="column2">
-          <h4>INTRODUCTION</h4>
-          <h2>Hi, I am Paul Alexander.</h2>
-          <p>An ambitious art student and graphic designer aspiring to create something great. Currently, I am based in the Kitchener-Waterloo Area, studying <b>Global Business &amp; Digital Arts</b> at the <b>University of Waterloo.</b></p>
-        </div>
-      </div>
-      <hr>
-      
-      <div class="contentBlockText">
-        <div class="column1">
-          <br>
-          <br>
-          <br>
-          <h2>Want to get in touch?</h2>
-        </div>
-        <div class="column2">
-          <br>
-          <h4>CONTACT ME</h4>
-          <br>
-          <h4>a27herna@uwaterloo.ca | @HoiyaNaranja</h4>
-          <figure>
-            <a href="mailto:a27herna@uwaterloo.ca">
-            <img src="image_2024-12-07_225103945.png" alt="Email Icon">
-            </a>
-            <a href="https://www.instagram.com/hoiyanaranja/" target="_blank">
-            <img src="image_2024-12-07_225049256.png" alt="Instagram Icon">
-            </a>
-          </figure>
-          <figure>
-          </figure>
-        </div>
+        <br>
+        <br>
+        <h2>Alexander <br> Hernandez Pineda</h2>
+        <h4>A collection of art and projects I've done for my school courses.</h4>
       </div>
       
       
